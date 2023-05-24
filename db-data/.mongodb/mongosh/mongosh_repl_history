@@ -1,0 +1,96 @@
+exit
+db.fruits.insertMany( [ { "_id": 1, "name": "apples", "qty": 5, "rating": 3 }, { "_id": 2, "name": "bananas", "qty": 7, "rating": 1, "microsieverts": 0.1 }, { "_id": 3, "name": "oranges", "qty": 6, "rating": 2 }, { "_id": 4, "name": "avocados", "qty": 3, "rating": 5 }, ])
+db.fruits.deleteOne({ _id: 2, name: 'apples', qty: 5555, rating: 1, microsieverts: 0.1 })
+db.fruits.insertOne({ _id: 2, name: 'apples', qty: 5555, rating: 1, microsieverts: 0.1 })
+db.fruits.deleteOne({ _id: 2, name: 'apples', qty: 1000000000000000000000000000000000000000000000000000, rating: 1, microsieverts: 0.1 })
+db.fruits.insertOne({ _id: 2, name: 'apples', qty: 1000000000000000000000000000000000000000000000000000, rating: 1, microsieverts: 0.1 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 3, name: 'oranges', qty: 6, rating: 2 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 2, name: 'bananas', qty: 7, rating: 1, microsieverts: 0.1 })
+db.fruits.insertOne({ _id: 2, name: 'bananas', qty: 7, rating: 1, microsieverts: 0.1 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 4, name: 'avocados', qty: 3, rating: 5 })
+db.fruits.deleteOne({ _id: 1, name: 'apples', qty: 5, rating: 3 })
+db.fruits.updateOne({ _id: 1, name: 'apples', qty: 500000, rating: 3 })
+db.fruits.find()
+use mydb
+exit
+db.fruits.find()
+db.fruits.insertMany( [ { "_id": 1, "name": "apples", "qty": 5, "rating": 3 }, { "_id": 2, "name": "bananas", "qty": 7, "rating": 1, "microsieverts": 0.1 }, { "_id": 3, "name": "oranges", "qty": 6, "rating": 2 }, { "_id": 4, "name": "avocados", "qty": 3, "rating": 5 }, ])
+db.fruits.find()
+db.fruits.deleteOne({ _id: 1, name: 'apples', qty: 5, rating: 3 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 4, name: 'avocados', qty: 3, rating: 5 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 3, name: 'oranges', qty: 6, rating: 2 })
+db.fruits.find()
+{ _id: 3, name: 'oranges', qty: 6, rating: 2 }, { _id: 4, name: 'avocados', qty: 3, rating: 5 }, { _id: 1, name: 'apples', qty: 5, rating: 3 })
+db.fruits.deleteMany({ _id: 2, name: 'bananas', qty: 7, rating: 1, microsieverts: 0.1 },)
+db.fruits.deleteMany()
+db.fruits.find()
+db.fruits.insertOne( { "_id": 1, "name": "apples", "qty": 5, "rating": 3 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 1, name: 'apples', qty: 100, rating: 3 })
+db.fruits.find()
+db.fruits.deleteOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.find()
+db.fruits.insertOne({ _id: 1, name: 'apples', qty: 5, rating: 3 })
+db.fruits.insertOne({ _id: 1, name: 'apples', qty: 100, rating: 3 })
+db.fruits.insertOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.deleteOne({ _id: 1, name: 'apples', qty: 5, rating: 3 })
+db.fruits.deleteOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.insertOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+use mydb
+db.fruits.deleteOne({ _id: 1000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.deleteOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.insertOne({ _id: 1000000, name: 'apples', qty: 100, rating: 3 })
+use mydb
+exit
+db.fruits.insertOne({ _id: 1000, name: 'apples', qty: 100, rating: 3 })
+db.fruits.find()
+use mydb
+exit
+show dbs
+db.fruits.countDocuments({ name: 'apples' })
+db.collection('fruits').countDocuments({ name: 'apples' })
+use mydb
+show dbs
+exit
+show dbs
+exit
+show dbs
+exit
+show dbs
+exit
+db.fruits.find()
+use mydb
+show dbs
+db.fruits.find()
+show dbs
+db.fruits.insertMany( [ { "_id": 1, "name": "apples", "qty": 5, "rating": 3 }, { "_id": 2, "name": "bananas", "qty": 7, "rating": 1, "microsieverts": 0.1 }, { "_id": 3, "name": "oranges", "qty": 6, "rating": 2 }, { "_id": 4, "name": "avocados", "qty": 3, "rating": 5 }, ])
+use mydb
+show dbs
+ls
+show collections
+show dbs
+use admin
+show dbs
+exit
+show dbs
+exit
+show dbs
+show collections
+use mydb
+exit
+show collections
+use config
+show dbs
+exit
+show collections
+show dbs
+use local
+show dbs
+show collections
+use admin
+show dbs

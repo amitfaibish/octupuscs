@@ -1,0 +1,15 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "My Web Application",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "wait-db": "node wait-db.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongodb": "^3.6.6"
+    }
+  }
+  

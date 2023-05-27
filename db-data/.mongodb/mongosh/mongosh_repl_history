@@ -1,4 +1,12 @@
 exit
+db.fruits.find()
+db.fruits.deleteOne({ _id: ObjectId("646dbe17210dfb9aaee90246"), name: 'apples', qty: 45, rating: 5 })
+db.fruits.find().pretty()
+db.fruits.find()
+db.fruits.insertOne( {  "name": "apples", "qty": 45, "rating": 5 })
+db.fruits.find()
+use mydb
+exit
 db.fruits.insertMany( [ { "_id": 1, "name": "apples", "qty": 5, "rating": 3 }, { "_id": 2, "name": "bananas", "qty": 7, "rating": 1, "microsieverts": 0.1 }, { "_id": 3, "name": "oranges", "qty": 6, "rating": 2 }, { "_id": 4, "name": "avocados", "qty": 3, "rating": 5 }, ])
 db.fruits.deleteOne({ _id: 2, name: 'apples', qty: 5555, rating: 1, microsieverts: 0.1 })
 db.fruits.insertOne({ _id: 2, name: 'apples', qty: 5555, rating: 1, microsieverts: 0.1 })
